@@ -16,6 +16,8 @@ body {
 
 .d-flex {
   display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 a {
@@ -66,48 +68,133 @@ p {
   margin-top: 10px;
   margin-right: 20px;
 }
-
-.hero {
+.bio {
+  margin-top: 50px;
   display: flex;
-  text-align: center;
-  gap: 40px;
-  padding-top: 80px;
+  gap: 200px;
 }
-.hero .header-1 {
-  font-size: 67px;
+.name {
+  color: white;
+
+  font-size: 51px;
   font-weight: 600;
-  line-height: 73.7px;
-  color: #fff;
+  line-height: 56.1px;
   text-align: left;
-  width: 510px;
+}
+.grey {
+  color: grey;
+}
+.paragraf {
+  width: 605px;
+  height: 595px;
   gap: 0px;
   opacity: 0px;
-}
-.hero .paragraph {
+  color: #fff;
   font-size: 22px;
   font-weight: 400;
   line-height: 35.2px;
   text-align: left;
-  color: #fff;
-  width: 510px;
-  gap: 0px;
+}
+.btn-solid {
+  margin-top: 10px;
+  background-color: #2b2b2b;
+  color: #a259ff;
+  border: none;
+  border: 1px solid #a259ff;
+  width: 150px;
+  height: 46px;
+  padding: 0px 30px 0px 30px;
+  gap: 12px;
+  border-radius: 20px;
   opacity: 0px;
 }
-.hero .btn-get {
-  width: 224px;
-  height: 60px;
+.btn-solid:active {
+  background-color: #a259ff;
+  color: #2b2b2b;
+  border: 1px solid #2b2b2b;
+}
+.cosmos {
+  color: white;
+}
+.cost {
+  color: grey;
+}
+.border {
+  gap: 83px;
+  padding-top: 35px;
+  display: flex;
+  text-align: center;
+}
+.wrappe {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 150px;
+}
+
+.images {
+  margin-left: 8px;
+  margin-top: 3px;
+}
+.btn-line {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-align: center;
+  background: #2b2b2b;
+  width: 150px;
+  color: #a259ff;
+  height: 45px;
+  top: 20px;
+  left: 45px;
   padding: 0px 50px 0px 50px;
   gap: 12px;
   border-radius: 20px;
   opacity: 0px;
+  border: 1px solid #a259ff;
+  border: none;
+}
+.btn-line:active {
   background-color: #a259ff;
   color: #fff;
-  border: none;
-  margin-right: 348px;
+}
+.Created {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.box-bor {
+  width: 350px;
+  height: 500px;
+  background-color: #4a4949;
+  border-radius: 20px;
+  padding: 5px;
   margin-top: 20px;
 }
-.hero .btn-get:active {
-  background-color: #fff;
-  color: #a259ff;
-  border: 1px solid #a259ff;
+.avatar {
+  display: flex;
+  text-align: center;
+  gap: 10px;
+  color: white;
+}
+.header-4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 45.6px;
+  text-align: left;
+  width: 763px;
+  height: 46px;
+  gap: 0px;
+  opacity: 0px;
+  color: white;
+}
+.creators {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
