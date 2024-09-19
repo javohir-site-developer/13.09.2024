@@ -198,3 +198,52 @@ p {
   flex-wrap: wrap;
   gap: 20px;
 }
+
+.footer {
+  display: flex;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-color: #434343;
+  gap: 89px;
+}
+.h-first {
+  width: 95px;
+  height: 35px;
+  gap: 0px;
+  opacity: 0px;
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 35.2px;
+  text-align: left;
+}
+.h-third {
+  width: 297px;
+  height: 35px;
+  gap: 0px;
+  opacity: 0px;
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 35.2px;
+  text-align: left;
+}
+.mono {
+  color: grey;
+}
+.font {
+  color: grey;
+  width: 330px;
+  height: 44px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+}
+.line {
+  display: flex;
+  gap: 89px;
+}
